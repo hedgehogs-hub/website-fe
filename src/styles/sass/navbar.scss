@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+a {
+  padding: 10px 15px;
+  margin: 15px 0;
+  color: rgb(51, 51, 51);
+  text-decoration-line: none;
+  font-size: 14px;
+  cursor: pointer;
+  @media (max-width: 880px) {
+    & {
+      color: white;
+      border-bottom: 2px solid white;
+      transition: .3s
+    }
+  }
+}
+
+nav {
+  align-self: center;
+  @media (max-width: 880px) {
+    & {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #000000ad;
+      position: relative;
+      top: -90px;
+    }
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 20px 34px;
+  width: 100%;
+  max-width: 1140px;
+  transition: .5s;
+  align-items: center;
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box; /* Firefox, other Gecko */
+  box-sizing: border-box;
+
+  img {
+    height: 100%;
+  }
+
+  a {
+    padding: 10px 15px;
+    margin: 15px 0;
+    color: rgb(51, 51, 51);
+    text-decoration-line: none;
+    font-size: 14px;
+    cursor: pointer;
+    @media (max-width: 880px) {
+      & {
+        color: white;
+        border-bottom: 2px solid white;
+        transition: .3s
+      }
+      &:hover {
+        border-bottom: 2px solid #1e7b7b;
+      }
+    }
+
+    @media (max-height: 656px) and (max-width: 880px) {
+      & {
+        padding: 3px 3px;
+      }
+    }
+
+    &:nth-child(1):hover ~ hr {
+      left: 11px !important;
+      width: 48px !important;;
+    }
+
+    &:nth-child(2):hover ~ hr {
+      left: 82px !important;
+      width: 50px !important;
+    }
+
+    &:nth-child(3):hover ~ hr {
+      left: 158px !important;
+      width: 42px !important;
+    }
+
+    &:nth-child(4):hover ~ hr {
+      left: 224px !important;
+      width: 65px !important;
+    }
+
+    &:nth-child(5):hover ~ hr {
+      left: 311px !important;
+      width: 48px !important;;
+    }
+
+    &:nth-child(6):hover ~ hr {
+      left: 383px !important;
+      width: 95px !important;
+    }
+
+    &:nth-child(7):hover ~ hr {
+      left: 505px !important;
+      width: 57px !important;
+    }
+
+    &:nth-child(8):hover ~ hr {
+      left: 587px !important;
+      width: 65px !important;
+    }
+
+
+  }
+}
+
+.menuButton {
+  display: none;
+  height: fit-content;
+  @media (max-width: 880px) {
+    & {
+      display: block;
+      position: relative;
+      z-index: 999;
+    }
+  }
+
+  div {
+    width: 25px;
+    height: 3px;
+    background: black;
+    margin-top: 5px;
+    transition: .5s;
+  }
+}
+
+@media (max-width: 880px) {
+  .menu {
+    position: absolute;
+    width: 100%;
+    /* background: aqua; */
+    left: 0;
+    top: -478px;
+    z-index: 10;
+    overflow: hidden;
+    transition: .4s;
+
+    hr {
+      display: none;
+    }
+  }
+  .pasive {
+    border-bottom: 2px solid #38d2d9
+  }
+}
+
+.one.active {
+  transform: rotate(-45deg) translate(-6px, 9px);;
+}
+
+.two.active {
+  opacity: 0;
+}
+
+.three.active {
+  transform: rotate(45deg) translate(-2px, -5px);;
+}
+
+
+.menu {
+  hr {
+    border: none;
+    background: #38d2d9;
+    width: 48px;
+    height: 2px;
+    margin-top: 3px;
+    position: relative;
+    left: 11px;
+    transition: .5s;
+    text-align:left;
+  }
+}
+

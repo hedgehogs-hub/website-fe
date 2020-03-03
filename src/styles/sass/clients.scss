@@ -1,0 +1,48 @@
+.clientsContent{
+  background-color: white;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 90px;
+  }
+  hr{
+    width: 100px;
+    height: 1px;
+    outline: none;
+    border: none;
+    background: grey;
+  }
+}
+.clientsContext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  h6{
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 100;
+    color: grey;
+    margin: 0 20px
+  }
+}
+.clients{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin:30px auto 0;
+  max-width: 1300px;
+  img{
+    max-width: 280px;
+    width: 100%;
+    margin: 19px;
+    @media (max-width: 460px) {
+      &{
+        width: 80%;
+      }
+    }
+  }
+}

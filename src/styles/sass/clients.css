@@ -1,0 +1,51 @@
+.clientsContent {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px; }
+.clientsContent h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 90px; }
+.clientsContent hr {
+    width: 100px;
+    height: 1px;
+    outline: none;
+    border: none;
+    background: grey; }
+
+.clientsContext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 25px; }
+.clientsContext h6 {
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 100;
+    color: grey;
+    margin: 0 20px; }
+
+.clients {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 30px auto 0;
+    max-width: 1300px; }
+.clients img {
+    max-width: 280px;
+    width: 100%;
+    margin: 19px; }
+@media (max-width: 460px) {
+    .clients img {
+        width: 80%; } }

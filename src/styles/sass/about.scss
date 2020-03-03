@@ -1,0 +1,40 @@
+.aboutContent {
+  position: relative;
+  margin-top: 30px;
+  background: white;
+  height: fit-content;
+  padding-bottom: 15px;
+  z-index: 2;
+
+  img {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    color: #000000;
+    margin-top: 45px;
+    max-width: 797px;
+    width: 100%;
+    margin: 45px auto 0;
+  }
+
+  a {
+    padding: 10px 6px 10px 20px;
+    border: 2px solid grey;
+    margin: 23px auto;
+    display: flex;
+    width: 88px;
+    text-align: center;
+
+    &:hover {
+      background: #38d2d9
+    }
+  }
+}
+

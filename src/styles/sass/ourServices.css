@@ -1,0 +1,110 @@
+.servicesContent {
+    background-color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.servicesContent h1 {
+    text-align: center;
+    font-size: 35px;
+    margin-top: 90px;
+}
+
+.servicesContent h6 {
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 100;
+    color: grey;
+    margin: 0 20px;
+}
+
+.servicesContent hr {
+    width: 100px;
+    height: 1px;
+    outline: none;
+    border: none;
+    background: grey;
+}
+
+.serviceList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 40px auto 0;
+}
+
+.serviceList img {
+    max-width: 100px;
+    width: 100%;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.serviceList h6 {
+    text-align: center;
+    font-size: 14px;
+    font-family: unset;
+    font-weight: 100;
+    color: grey;
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.serviceList h3 {
+    color: #000000;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.serviceList div {
+    margin: 10px;
+    max-width: 340px;
+}
+
+/*.serviceList div:nth-child(2) .iconParent img {*/
+/*    max-width: 33px;*/
+/*}*/
+
+/*.serviceList div:nth-child(6) .iconParent img {*/
+/*    max-width: 44px;*/
+/*    padding-top: 24px;*/
+/*}*/
+
+.servicesContext {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.iconParent {
+    width: 100px;
+    height: 100px;
+    /*background: #38d2d9;*/
+    border-radius: 50%;
+    margin: 0 auto !important;
+}

@@ -1,0 +1,93 @@
+.servicesContent{
+  background-color: #fff;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 90px;
+  }
+  h6{
+    text-align: center;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: 100;
+    color: grey;
+    margin: 0 20px;
+  }
+  hr{
+    width: 100px;
+    height: 1px;
+    outline: none;
+    border: none;
+    background: grey;
+  }
+}
+.serviceList {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 40px auto 0;
+  img {
+    max-width: 45px;
+    width: 100%;
+    transition: .5s;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  h6{
+    text-align: center;
+    font-size: 14px;
+    font-family: unset;
+    font-weight: 100;
+    color: grey;
+    margin: 0;
+    margin-bottom: 25px;
+  }
+  h3{
+    color: #000000;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  div{
+    margin: 10px;
+    max-width: 340px;
+  }
+  &{
+    div:nth-child(2){
+    .iconParent{
+      img{
+        max-width: 44px;
+        padding-top: 24px;
+      }
+    }
+  }
+    div:nth-child(6){
+      .iconParent{
+        img{
+          max-width: 33px;
+        }
+      }
+    }
+}}
+.servicesContext{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.iconParent{
+  width: 100px;
+  height: 100px;
+  background: #38d2d9;
+  border-radius: 50%;
+  margin: 0 auto !important;
+}
+
